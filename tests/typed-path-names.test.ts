@@ -5,7 +5,7 @@ import type {
   PathOfType,
   PropertyPathOfType,
   TypeAtPath,
-} from "../lib/typed-path";
+} from "../lib/typed-path-names";
 
 describe("path type", () => {
   type TestStruct = {

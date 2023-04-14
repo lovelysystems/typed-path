@@ -1,12 +1,12 @@
 {
-  "name": "lovely-typed-path",
-  "version": "0.1.0",
+  "name": "lovely-typed-path-names",
+  "version": "0.2.0",
   "author": "Lovely Systems GmbH <office@lovelysystems.com>",
   "license": "APACHE-2.0",
-  "types": "./lib/typed-path.ts",
+  "types": "./lib/typed-path-names.ts",
   "exports": {
     ".": {
-      "types": "./typed-path.ts"
+      "types": "./typed-path-names.ts"
     },
     "./package.json": "./package.json"
   },
@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lovelysystems/typed-path"
+    "url": "https://github.com/lovelysystems/typed-path-names"
   },
   "bugs": {
-    "url": "https://github.com/lovelysystems/typed-path/issues"
+    "url": "https://github.com/lovelysystems/typed-path-names/issues"
   },
-  "homepage": "https://github.com/lovelysystems/typed-path#readme",
+  "homepage": "https://github.com/lovelysystems/typed-path-names#readme",
   "scripts": {
     "build": "tsc && vite build",
     "test": "vitest"
