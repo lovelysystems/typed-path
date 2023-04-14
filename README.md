@@ -37,3 +37,23 @@ type properties = PropertyPathOfType<MyType>;
 type stringProperties = PropertyPathOfType<MyType, string>;
 // stringProperties = "value"
 ```
+
+More examples can be found in the [tests](tests).
+
+## Develop
+
+This is a pnpm project!
+
+```bash
+pnpm install
+```
+
+Run tests:
+
+```bash
+pnpm test
+```
+
+### Build
+
+There is no build run needed. The package just exports types.
