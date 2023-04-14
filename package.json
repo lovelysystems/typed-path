@@ -1,0 +1,35 @@
+{
+  "name": "@lovelysystems/typed-path",
+  "version": "0.0.0",
+  "author": "Lovely Systems GmbH <office@lovelysystems.com>",
+  "license": "APACHE-2.0",
+  "private": true,
+  "types": "./lib/typed-oath.ts",
+  "exports": {
+    ".": {
+      "types": "./typed-path.ts"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lovelysystems/typed-path"
+  },
+  "bugs": {
+    "url": "https://github.com/lovelysystems/typed-path/issues"
+  },
+  "homepage": "https://github.com/lovelysystems/typed-path#readme",
+  "scripts": {
+    "build": "tsc && vite build",
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "typescript": "^4.9.3",
+    "vite": "^4.2.0",
+    "vitest": "^0.30.1"
+  }
+}
