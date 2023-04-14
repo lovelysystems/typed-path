@@ -1,9 +1,9 @@
 {
-  "name": "@ls/typed-path",
+  "name": "lovely-typed-path",
   "version": "0.1.0",
   "author": "Lovely Systems GmbH <office@lovelysystems.com>",
   "license": "APACHE-2.0",
-  "types": "./lib/typed-oath.ts",
+  "types": "./lib/typed-path.ts",
   "exports": {
     ".": {
       "types": "./typed-path.ts"
