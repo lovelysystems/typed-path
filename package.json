@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "author": "Lovely Systems GmbH <office@lovelysystems.com>",
   "license": "APACHE-2.0",
-  "private": true,
   "types": "./lib/typed-oath.ts",
   "exports": {
     ".": {
