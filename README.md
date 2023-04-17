@@ -6,21 +6,21 @@ against any type.
 ## Installation
 
 ```bash
-npm install @lovelysystems/typed-path
+npm install @lovelysystems/typed-path-names
 ```
 
 ```bash
-pnpm add @lovelysystems/typed-path
+pnpm add @lovelysystems/typed-path-names
 ```
 
 ```bash
-yarn add @lovelysystems/typed-path
+yarn add @lovelysystems/typed-path-names
 ```
 
 ## Example
 
 ```typescript
-import { PathOfType, PropertyPathOfType } from "@lovelysystems/typed-path";
+import { PathOfType, PropertyPathOfType } from "lovely-typed-path-names";
 type MyType = {
   value: string;
   child: {
