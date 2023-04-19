@@ -1,6 +1,6 @@
 {
   "name": "lovely-typed-path-names",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Lovely Systems GmbH <office@lovelysystems.com>",
   "license": "APACHE-2.0",
   "types": "./lib/typed-path-names.ts",

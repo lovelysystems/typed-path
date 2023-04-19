@@ -6,15 +6,15 @@ against any type.
 ## Installation
 
 ```bash
-npm install @lovelysystems/typed-path-names
+npm install lovely-typed-path-names
 ```
 
 ```bash
-pnpm add @lovelysystems/typed-path-names
+pnpm add lovely-typed-path-names
 ```
 
 ```bash
-yarn add @lovelysystems/typed-path-names
+yarn add lovely-typed-path-names
 ```
 
 ## Example
